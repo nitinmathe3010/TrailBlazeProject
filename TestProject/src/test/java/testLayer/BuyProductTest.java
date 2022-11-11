@@ -8,9 +8,10 @@ import testBase.TestBase;
 public class BuyProductTest extends TestBase{
 	
 	@Test
-	public void test()
+	public void test() 
 	{
 		HomePage2 home = new HomePage2(driver);
+		
 		
 		home.clickOnPhonesLink();
 		home.clickOnSamsungGalaxyS6();
