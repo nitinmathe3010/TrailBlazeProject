@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-09T15:27:34 IST" name="Default suite" finished-at="2022-11-09T15:27:42 IST" duration-ms="8455">
+  <suite started-at="2022-11-11T23:53:55 IST" name="Default suite" finished-at="2022-11-11T23:54:02 IST" duration-ms="7621">
     <groups>
     </groups>
-    <test started-at="2022-11-09T15:27:34 IST" name="Default test" finished-at="2022-11-09T15:27:42 IST" duration-ms="8455">
+    <test started-at="2022-11-11T23:53:55 IST" name="Default test" finished-at="2022-11-11T23:54:02 IST" duration-ms="7621">
       <class name="testLayer.BuyProductTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testLayer.BuyProductTest@7e5afaa6]" started-at="2022-11-09T15:27:34 IST" name="setUp" finished-at="2022-11-09T15:27:39 IST" duration-ms="4983" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testLayer.BuyProductTest@7e5afaa6]" started-at="2022-11-11T23:53:55 IST" name="setUp" finished-at="2022-11-11T23:54:00 IST" duration-ms="5026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:testLayer.BuyProductTest@7e5afaa6]" started-at="2022-11-09T15:27:39 IST" name="test" finished-at="2022-11-09T15:27:41 IST" duration-ms="2791" status="PASS">
+        <test-method signature="test()[pri:0, instance:testLayer.BuyProductTest@7e5afaa6]" started-at="2022-11-11T23:54:00 IST" name="test" finished-at="2022-11-11T23:54:02 IST" duration-ms="1849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testLayer.BuyProductTest@7e5afaa6]" started-at="2022-11-09T15:27:41 IST" name="tearDown" finished-at="2022-11-09T15:27:42 IST" duration-ms="654" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testLayer.BuyProductTest@7e5afaa6]" started-at="2022-11-11T23:54:02 IST" name="tearDown" finished-at="2022-11-11T23:54:02 IST" duration-ms="707" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

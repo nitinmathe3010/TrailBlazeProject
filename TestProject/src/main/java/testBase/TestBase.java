@@ -10,6 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utility.ReadConfigue;
 
 
 public class TestBase {
@@ -40,9 +41,9 @@ public class TestBase {
 			System.out.println("Please provide correct browser");
 		}
 		
+		ReadConfigue readcon=new ReadConfigue();
 		
-		
-		driver.get("https://demoblaze.com/index.html");
+		driver.get(readcon.getApplicationURL());
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS );
